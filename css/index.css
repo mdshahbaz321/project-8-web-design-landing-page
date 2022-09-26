@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+body{
+    background-repeat: no-repeat;
+    background-position:top right;
+    background-size: 54% 680px;
+    padding: 20px 60px;
+    padding-right: 30px;
+    
+    
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-item{
+    display: inline-block;
+    margin-right: 30px;
+    margin-top: 10px;
+    color: #1F2873;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    cursor: pointer;
+}
+.nav-item:hover{
+    border: 0;
+    border-bottom: 3px solid #1F2873;
+    font-size: 21px;
+}
+.signin-btn{
+    width: 120px;
+    margin-right: 35px;
+    height: 40px;
+    border: none;
+    color: #ffffff;
+    font-size: 16px;
+    border-radius: 20px;
+    background: rgb(150,92,242);
+background: linear-gradient(90deg, rgba(150,92,242,1) 0%, rgba(202,115,231,1) 51%, rgba(255,138,220,1) 100%);
+cursor: pointer;
+font-family: 'Courier New', Courier, monospace;
+}
+.signin-btn:hover{
+    font-size: 19px;
+    width: 130px;
+    font-weight: 400;
+    background: linear-gradient(90deg, rgba(202,115,231,1) 0%, rgba(255,138,220,1) 51%, rgba(150,92,242,1) 100%);
+}
+.intro-section{
+    display: flex;
+    flex-basis: 1fr 1fr;
+    
+}
+.left-section{
+    
+}
+.imgs-div{
+    
+}
+.sec_heading{
+    margin-top: 30%;
+    margin-bottom: 15%;
+    margin-left: 8%;
+    font-size: 70px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #3E4794;
+
+}   
+.para_txt{
+    color: rgb(160, 157, 157);
+    text-align: justify;
+    margin-bottom: 20%;
+}
+.learn-more-btn{
+    width: 200px;
+    margin-left: 20%;
+    height: 40px;
+    border: none;
+    color: #ffffff;
+    font-size: 18px;
+    border-radius: 20px;
+    background: rgb(150,92,242);
+background: linear-gradient(90deg, rgba(150,92,242,1) 0%, rgba(202,115,231,1) 51%, rgba(255,138,220,1) 100%);
+cursor: pointer;
+font-family: Secular;
+font-weight: 500;
+}
+.learn-more-btn:hover{
+    width: 210px;
+    font-size: 19px;
+    background: linear-gradient(90deg, rgba(202,115,231,1) 0%,  rgba(150,92,242,1) 100%);
+}
+
+/* right section coding */
+.intro_img{
+    width: 600px;
+    margin-top: 2%;
+    position: relative;
+    right: 0;
+}
+.vector-img{
+    position: relative;
+    top: -12%;
+    left: 5%;
+}
+.vector-dot{
+    position: relative;
+    top: -27%;
+    left: -1%;
+}
